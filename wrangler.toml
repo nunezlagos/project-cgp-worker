@@ -1,0 +1,12 @@
+name = "cgp-worker"
+main = "src/index.ts"
+compatibility_date = "2025-04-17"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cgp"
+database_id = "bc063a0f-59b8-49b3-9315-334d0e53bc49"
+
+[observability]
+enabled = true
